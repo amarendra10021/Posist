@@ -1,0 +1,40 @@
+import java.util.*;
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+ArrayList<Employee> e=new ArrayList<Employee>();
+e.add(new Employee(sc.nextInt(),sc.next(),sc.next(),sc.next(),sc.next()));
+
+Employee emps=e.get(1);
+System.out.println(emps);
+}
+
+} 
+
+class Employee
+{
+List <Date> date= new ArrayList<Date>();
+date.add(user.getDate());
+ArrayList<data> da=new ArrayList<data>();
+da.add(new data(sc.next(),sc.nextLine(),sc.next(),sc.next(),sc.next(),sc.next()));
+
+int nodenumber;
+String nodeId;
+String referalnodeId;
+String childReferalNodeId;
+String genesisReferenceNodeId;
+
+
+  }
+
+class data{
+String Owner_Id;
+Int value;
+String Owner_name;
+String Owner_Id.hashcode();
+String value.hashcode();
+String Owner_name.hashcode();
+
+}
